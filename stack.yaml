@@ -1,0 +1,8 @@
+resolver: lts-14.0
+packages:
+- .
+extra-deps:
+- github: chrisdone/yaml-repro-4906
+  commit: 78105c51b5c0851dcde98d257699abd0bc405fce
+  subdirs:
+    - yaml-include-repro
